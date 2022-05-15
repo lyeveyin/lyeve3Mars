@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://lyeveyin.github.io/lyeve3mars</id>
     <title>LYEVE&apos;S MARS</title>
-    <updated>2022-05-15T09:10:36.112Z</updated>
+    <updated>2022-05-15T09:13:20.029Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://lyeveyin.github.io/lyeve3mars"/>
     <link rel="self" href="https://lyeveyin.github.io/lyeve3mars/atom.xml"/>
@@ -11,12 +11,17 @@
     <icon>https://lyeveyin.github.io/lyeve3mars/favicon.ico</icon>
     <rights>All rights reserved 2022, LYEVE&apos;S MARS</rights>
     <entry>
-        <title type="html"><![CDATA[空间站]]></title>
-        <id>https://lyeveyin.github.io/lyeve3mars/post/kong-jian-zhan/</id>
-        <link href="https://lyeveyin.github.io/lyeve3mars/post/kong-jian-zhan/">
+        <title type="html"><![CDATA[TO BE CONTINUED]]></title>
+        <id>https://lyeveyin.github.io/lyeve3mars/post/about/</id>
+        <link href="https://lyeveyin.github.io/lyeve3mars/post/about/">
         </link>
-        <updated>2022-05-15T08:59:04.000Z</updated>
-        <content type="html"><![CDATA[<p>今晚</p>
+        <updated>2022-05-15T08:40:48.000Z</updated>
+        <summary type="html"><![CDATA[<figure data-type="image" tabindex="1"><img src="https://lyeveyin.github.io/lyeve3mars/post-images/1628659530329.webp" alt="" loading="lazy"></figure>
+]]></summary>
+        <content type="html"><![CDATA[<figure data-type="image" tabindex="1"><img src="https://lyeveyin.github.io/lyeve3mars/post-images/1628659530329.webp" alt="" loading="lazy"></figure>
+<!-- more -->
+<p>20220515<br>
+LYEVE飞往MARS的飞船搭建成功</p>
 ]]></content>
     </entry>
     <entry>
