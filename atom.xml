@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>http://localhost:4001</id>
+    <id>https://lyeveyin.github.io/lyeve3mars</id>
     <title>LYEVE&apos;S MARS</title>
-    <updated>2022-05-15T09:02:29.331Z</updated>
+    <updated>2022-05-15T09:05:16.096Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="http://localhost:4001"/>
-    <link rel="self" href="http://localhost:4001/atom.xml"/>
+    <link rel="alternate" href="https://lyeveyin.github.io/lyeve3mars"/>
+    <link rel="self" href="https://lyeveyin.github.io/lyeve3mars/atom.xml"/>
     <subtitle>头脑风暴</subtitle>
-    <logo>http://localhost:4001/images/avatar.png</logo>
-    <icon>http://localhost:4001/favicon.ico</icon>
+    <logo>https://lyeveyin.github.io/lyeve3mars/images/avatar.png</logo>
+    <icon>https://lyeveyin.github.io/lyeve3mars/favicon.ico</icon>
     <rights>All rights reserved 2022, LYEVE&apos;S MARS</rights>
     <entry>
         <title type="html"><![CDATA[空间站]]></title>
-        <id>http://localhost:4001/post/kong-jian-zhan/</id>
-        <link href="http://localhost:4001/post/kong-jian-zhan/">
+        <id>https://lyeveyin.github.io/lyeve3mars/post/kong-jian-zhan/</id>
+        <link href="https://lyeveyin.github.io/lyeve3mars/post/kong-jian-zhan/">
         </link>
         <updated>2022-05-15T08:59:04.000Z</updated>
         <content type="html"><![CDATA[<p>今晚</p>
@@ -21,8 +21,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[假如我是金某恩]]></title>
-        <id>http://localhost:4001/post/jia-ru-wo-shi-jin-mou-en/</id>
-        <link href="http://localhost:4001/post/jia-ru-wo-shi-jin-mou-en/">
+        <id>https://lyeveyin.github.io/lyeve3mars/post/jia-ru-wo-shi-jin-mou-en/</id>
+        <link href="https://lyeveyin.github.io/lyeve3mars/post/jia-ru-wo-shi-jin-mou-en/">
         </link>
         <updated>2022-05-15T08:20:03.000Z</updated>
         <content type="html"><![CDATA[<p>（灵感来源于看了朝鲜的建筑风格文章 突然突发奇想 如果我是金某恩 我会怎么做）</p>
