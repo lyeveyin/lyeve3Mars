@@ -2,7 +2,7 @@
 
 .mdui-drawer{
     background-color: #edeff0;
-    background: url(../img/bg_01.jpg);
+    background: url(/images/bg_01.jpg);
 }
 
 .head_card-offset{
@@ -17,7 +17,7 @@
     right: 0;
     bottom: 0;
     left: 0;
-    background: url(../img/centerbg.jpg) center 0 no-repeat;
+    background: url(../imgaes/centerbg.jpg) center 0 no-repeat;
     background-size: cover;
 }*/
 
