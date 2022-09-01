@@ -195,14 +195,14 @@
     left:22px
 }
 .meteor .red {
-    background:#ff3030;
+    background:#887c2b;
     top:0;
     left:600px;
     animation:meteor 1.95s infinite linear;
     animation-delay:.15s;
 }
 .meteor .red:after {
-    border-left:1px solid #ff3030
+    border-left:1px solid #887c2b
 }
 .meteor .orange {
     background:#cd6600;

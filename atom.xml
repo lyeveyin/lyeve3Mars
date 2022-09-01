@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://lyeveyin.github.io/lyeve3mars</id>
     <title>LYEVE&apos;S MARS</title>
-    <updated>2022-05-15T10:00:59.522Z</updated>
+    <updated>2022-09-01T19:25:20.736Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://lyeveyin.github.io/lyeve3mars"/>
     <link rel="self" href="https://lyeveyin.github.io/lyeve3mars/atom.xml"/>
@@ -10,6 +10,42 @@
     <logo>https://lyeveyin.github.io/lyeve3mars/images/avatar.png</logo>
     <icon>https://lyeveyin.github.io/lyeve3mars/favicon.ico</icon>
     <rights>All rights reserved 2022, LYEVE&apos;S MARS</rights>
+    <entry>
+        <title type="html"><![CDATA[无主义者]]></title>
+        <id>https://lyeveyin.github.io/lyeve3mars/post/zfEmFqaqJ/</id>
+        <link href="https://lyeveyin.github.io/lyeve3mars/post/zfEmFqaqJ/">
+        </link>
+        <updated>2022-09-01T17:16:18.000Z</updated>
+        <summary type="html"><![CDATA[<p>-ism、-is</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>-ism、-is</p>
+<!-- more -->
+<h1 id="1-太空时代space-age太空美学">1. 太空时代space age/太空美学</h1>
+<li>Time：1950年代至1970年代</li>
+<li>Movie：《2001：太空漫游》</p>
+<a href="超链接地址" title="超链接title">超链接显示名</a>
+<h1 id="2-复古未来主义">2. 复古未来主义</h1>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【今日份探索】]]></title>
+        <id>https://lyeveyin.github.io/lyeve3mars/post/q4lpsT98D/</id>
+        <link href="https://lyeveyin.github.io/lyeve3mars/post/q4lpsT98D/">
+        </link>
+        <updated>2022-08-21T16:46:06.000Z</updated>
+        <content type="html"><![CDATA[<ol>
+<li>
+<p>B站up主——RightClick右键</p>
+</li>
+<li>
+<p>小宇宙节目——《空间》《基本无害》《无聊斋》《谐星聊天会》</p>
+</li>
+<li>
+<p>网页——https://www.sstm-sam.org.cn/#/home</p>
+</li>
+</ol>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[ceshi]]></title>
         <id>https://lyeveyin.github.io/lyeve3mars/post/ceshi/</id>
@@ -25,8 +61,9 @@
         <link href="https://lyeveyin.github.io/lyeve3mars/post/about/">
         </link>
         <updated>2022-05-15T08:40:48.000Z</updated>
-        <content type="html"><![CDATA[<p>20220515<br>
-LYEVE飞往MARS的飞船搭建成功</p>
+        <content type="html"><![CDATA[<h1 id="20220515">20220515</h1>
+<p>LYEVE飞往MARS的飞船搭建成功</p>
+<h1 id="相关链接">相关链接</h1>
 ]]></content>
     </entry>
     <entry>
