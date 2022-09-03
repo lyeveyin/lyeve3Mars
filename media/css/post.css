@@ -1,5 +1,5 @@
 .comment{
-    background-color: #c27ba0;
+    background-color: #ffffff;
 }
 
 .reply_son>img{
@@ -24,7 +24,7 @@
 
 .mdui-theme-accent-pink .mdui-color-theme-accent {
     color: #fff !important;
-    background-color: #edeff0 !important;
+    background-color: #ff4081 !important;
 }
 /*.head_card-offset{
     padding-top: 65px;
@@ -35,7 +35,7 @@
     padding: 2.5%;
     text-align: center;
     font-size: 13px;
-    color: #8e7cc3;
+    color: #B9B9B9;
     font-family: -apple-system,BlinkMacSystemFont,Helvetica Neue,PingFang SC,Microsoft YaHei,Source Han Sans SC,Noto Sans CJK SC,WenQuanYi Micro Hei,sans-serif;
 
 }
