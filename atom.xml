@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>http://localhost:4000</id>
+    <id>https://lyeveyin.github.io/lyeve3mars</id>
     <title>LYEVE&apos;S MARS</title>
-    <updated>2022-09-03T06:51:27.809Z</updated>
+    <updated>2022-09-03T06:53:52.469Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="http://localhost:4000"/>
-    <link rel="self" href="http://localhost:4000/atom.xml"/>
+    <link rel="alternate" href="https://lyeveyin.github.io/lyeve3mars"/>
+    <link rel="self" href="https://lyeveyin.github.io/lyeve3mars/atom.xml"/>
     <subtitle>头脑风暴</subtitle>
-    <logo>http://localhost:4000/images/avatar.png</logo>
-    <icon>http://localhost:4000/favicon.ico</icon>
+    <logo>https://lyeveyin.github.io/lyeve3mars/images/avatar.png</logo>
+    <icon>https://lyeveyin.github.io/lyeve3mars/favicon.ico</icon>
     <rights>All rights reserved 2022, LYEVE&apos;S MARS</rights>
     <entry>
         <title type="html"><![CDATA[无主义者]]></title>
-        <id>http://localhost:4000/post/zfEmFqaqJ/</id>
-        <link href="http://localhost:4000/post/zfEmFqaqJ/">
+        <id>https://lyeveyin.github.io/lyeve3mars/post/zfEmFqaqJ/</id>
+        <link href="https://lyeveyin.github.io/lyeve3mars/post/zfEmFqaqJ/">
         </link>
         <updated>2022-09-01T17:16:18.000Z</updated>
         <summary type="html"><![CDATA[<p>-ism、-is</p>
@@ -29,8 +29,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[【今日份探索】]]></title>
-        <id>http://localhost:4000/post/q4lpsT98D/</id>
-        <link href="http://localhost:4000/post/q4lpsT98D/">
+        <id>https://lyeveyin.github.io/lyeve3mars/post/q4lpsT98D/</id>
+        <link href="https://lyeveyin.github.io/lyeve3mars/post/q4lpsT98D/">
         </link>
         <updated>2022-08-21T16:46:06.000Z</updated>
         <content type="html"><![CDATA[<ol>
@@ -48,17 +48,17 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[ceshi]]></title>
-        <id>http://localhost:4000/post/ceshi/</id>
-        <link href="http://localhost:4000/post/ceshi/">
+        <id>https://lyeveyin.github.io/lyeve3mars/post/ceshi/</id>
+        <link href="https://lyeveyin.github.io/lyeve3mars/post/ceshi/">
         </link>
         <updated>2022-05-15T09:51:55.000Z</updated>
-        <content type="html"><![CDATA[<figure data-type="image" tabindex="1"><img src="http://localhost:4000/post-images/1652608326936.jpg" alt="" loading="lazy"></figure>
+        <content type="html"><![CDATA[<figure data-type="image" tabindex="1"><img src="https://lyeveyin.github.io/lyeve3mars/post-images/1652608326936.jpg" alt="" loading="lazy"></figure>
 ]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[TO BE CONTINUED]]></title>
-        <id>http://localhost:4000/post/about/</id>
-        <link href="http://localhost:4000/post/about/">
+        <id>https://lyeveyin.github.io/lyeve3mars/post/about/</id>
+        <link href="https://lyeveyin.github.io/lyeve3mars/post/about/">
         </link>
         <updated>2022-05-15T08:40:48.000Z</updated>
         <content type="html"><![CDATA[<h1 id="20220515">20220515</h1>
@@ -68,8 +68,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[假如我是金某恩]]></title>
-        <id>http://localhost:4000/post/jia-ru-wo-shi-jin-mou-en/</id>
-        <link href="http://localhost:4000/post/jia-ru-wo-shi-jin-mou-en/">
+        <id>https://lyeveyin.github.io/lyeve3mars/post/jia-ru-wo-shi-jin-mou-en/</id>
+        <link href="https://lyeveyin.github.io/lyeve3mars/post/jia-ru-wo-shi-jin-mou-en/">
         </link>
         <updated>2022-05-15T08:20:03.000Z</updated>
         <content type="html"><![CDATA[<p>（灵感来源于看了朝鲜的建筑风格文章 突然突发奇想 如果我是金某恩 我会怎么做）</p>
