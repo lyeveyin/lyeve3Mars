@@ -32,8 +32,9 @@
 .focusinfo {
     position: relative;
     max-width: 800px;
+	height:100%
     padding: 0 10px;
-    top: 49.3%;
+    top: 100%;
     left: 50%;
     /*transform: translate(-50%,-50%);*/
     -webkit-transform: translate(-50%, -50%);
@@ -68,6 +69,7 @@
     width: 60%;
     margin: auto;
     font-size: 14px;
+	height:100px
     color: #EAEADF;
     background: rgba(0, 0, 0, 0.5);
     padding: 15px 25px;
@@ -113,7 +115,7 @@
 }
 
 #bilibili {
-    background-image: url(../img/icons.png);
+    background-image: url(img/icons.png);
     background-position: -150px 0px;
 }
 #zhihu{
@@ -121,7 +123,7 @@
     background-position: -223px -144px;
 }
 #steam {
-    background-image: url(../img/icons.png);
+    background-image: url("https://tse2-mm.cn.bing.net/th/id/OIP-C.xqThVbNdgcYEnrcVuyJZ1gHaEK?w=295&h=180&c=7&r=0&o=5&dpr=1.7&pid=1.7");
     background-position: -150px -144px;
 }
 #weibo{
@@ -130,7 +132,7 @@
 }
 
 #github{
-    background-image: url(../img/icons.png);
+    background-image: url("https://tse2-mm.cn.bing.net/th/id/OIP-C.xqThVbNdgcYEnrcVuyJZ1gHaEK?w=295&h=180&c=7&r=0&o=5&dpr=1.7&pid=1.7");
     background-position: -258px -144px
 }
 
