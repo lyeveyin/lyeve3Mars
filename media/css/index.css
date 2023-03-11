@@ -6,27 +6,27 @@
 }
 
 .head_card-offset{
-    padding-top: 65px;
+    padding-top: 600px;
 }
 
 /*.centerbg:before{
     content: ' ';
-    position: fixed;
+    position: relative;
     z-index: -1;
     top: 0;
     right: 0;
     bottom: 0;
     left: 0;
-    background: url(../img/centerbg.jpg) center 0 no-repeat;
+    background: url("https://img.zcool.cn/community/016ea45664ffd86ac725b2c808de1c.jpg?x-oss-process=image/auto-orient,1/resize,m_lfit,w_1280,limit_1/sharpen,100/format,webp/quality,q_100") center 0 no-repeat;
     background-size: cover;
 }*/
 
 .centerbg{
-    background-image: url(../img/centerbg.jpg);
+    background-image: url("https://img.zcool.cn/community/016ea45664ffd86ac725b2c808de1c.jpg?x-oss-process=image/auto-orient,1/resize,m_lfit,w_1280,limit_1/sharpen,100/format,webp/quality,q_100");
     margin:0;
     background-attachment: fixed;
     background-size: cover;
-    background-position: 80%;
+    background-position: 100%;
 }
 
 .focusinfo {
