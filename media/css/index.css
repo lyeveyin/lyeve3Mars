@@ -2,7 +2,7 @@
 
 .mdui-drawer{
     background-color: #edeff0;
-    background: url(../img/bg_01.jpg);
+    background: url("https://ts3.cn.mm.bing.net/th?id=OIP-C.ns36RSHXRC84OIwYUB4HlQHaJw&w=217&h=287&c=8&rs=1&qlt=90&o=6&dpr=1.7&pid=3.1&rm=2");
 }
 
 .head_card-offset{
@@ -287,3 +287,31 @@
     background-attachment: scroll;
     background-size: cover;
 */
+.mdui-toolbar {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.mdui-headroom-pinned-toolbar {
+    -webkit-transform: translate3d(0,0,0)!important;
+    transform: translate3d(0,0,0)!important;
+}
+.mdui-headroom {
+    -webkit-transition: all .3s cubic-bezier(0.4, 0, 0.2, 1)!important;
+    transition: all .3s cubic-bezier(.4,0,.2,1)!important;
+}
+
+* {
+    box-sizing: border-box;
+}
+* {
+    -webkit-tap-highlight-color: transparent;
+}
