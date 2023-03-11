@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://lyeveyin.github.io/lyeve3Mars</id>
     <title>LYEVE&apos;S MARS</title>
-    <updated>2023-03-11T15:26:39.804Z</updated>
+    <updated>2023-03-11T16:06:32.152Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://lyeveyin.github.io/lyeve3Mars"/>
     <link rel="self" href="https://lyeveyin.github.io/lyeve3Mars/atom.xml"/>
@@ -10,6 +10,15 @@
     <logo>https://lyeveyin.github.io/lyeve3Mars/images/avatar.png</logo>
     <icon>https://lyeveyin.github.io/lyeve3Mars/favicon.ico</icon>
     <rights>All rights reserved 2023, LYEVE&apos;S MARS</rights>
+    <entry>
+        <title type="html"><![CDATA[【观星指南】]]></title>
+        <id>https://lyeveyin.github.io/lyeve3Mars/post/8tdFTTUM4/</id>
+        <link href="https://lyeveyin.github.io/lyeve3Mars/post/8tdFTTUM4/">
+        </link>
+        <updated>2023-03-11T16:05:37.000Z</updated>
+        <content type="html"><![CDATA[<p>天文学</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[【爱好研究所】整理]]></title>
         <id>https://lyeveyin.github.io/lyeve3Mars/post/1mm9nVsEG/</id>
