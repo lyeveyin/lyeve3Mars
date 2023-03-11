@@ -30,18 +30,8 @@
 .focusinfo {
     position: relative;
     max-width: 800px;
-	height:300px
-    padding: 0 10px;
-    top: 100%;
-    left: 50%;
-    /*transform: translate(-50%,-50%);*/
-    -webkit-transform: translate(-50%, -50%);
-    text-align: center;
-    z-index: 99;
-    /*-webkit-transition: .4s ease all;*/
-    /*-moz-transition: .4s ease all;*/
-    /*-o-transition: .4s ease all;*/
-    transition: .4s ease all;
+	height:600px
+
 }
 
 .focusinfo .header-tou img {
