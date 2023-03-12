@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://lyeveyin.github.io/lyeve3Mars</id>
+    <id>http://localhost:4000</id>
     <title>LYEVE&apos;S MARS</title>
-    <updated>2023-03-12T06:29:02.020Z</updated>
+    <updated>2023-03-12T06:30:46.699Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://lyeveyin.github.io/lyeve3Mars"/>
-    <link rel="self" href="https://lyeveyin.github.io/lyeve3Mars/atom.xml"/>
+    <link rel="alternate" href="http://localhost:4000"/>
+    <link rel="self" href="http://localhost:4000/atom.xml"/>
     <subtitle>头脑风暴</subtitle>
-    <logo>https://lyeveyin.github.io/lyeve3Mars/images/avatar.png</logo>
-    <icon>https://lyeveyin.github.io/lyeve3Mars/favicon.ico</icon>
+    <logo>http://localhost:4000/images/avatar.png</logo>
+    <icon>http://localhost:4000/favicon.ico</icon>
     <rights>All rights reserved 2023, LYEVE&apos;S MARS</rights>
     <entry>
         <title type="html"><![CDATA[【观星指南】]]></title>
-        <id>https://lyeveyin.github.io/lyeve3Mars/post/8tdFTTUM4/</id>
-        <link href="https://lyeveyin.github.io/lyeve3Mars/post/8tdFTTUM4/">
+        <id>http://localhost:4000/post/8tdFTTUM4/</id>
+        <link href="http://localhost:4000/post/8tdFTTUM4/">
         </link>
         <updated>2023-03-11T16:05:37.000Z</updated>
         <content type="html"><![CDATA[<p>天文学</p>
@@ -21,8 +21,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[【爱好研究所】整理]]></title>
-        <id>https://lyeveyin.github.io/lyeve3Mars/post/1mm9nVsEG/</id>
-        <link href="https://lyeveyin.github.io/lyeve3Mars/post/1mm9nVsEG/">
+        <id>http://localhost:4000/post/1mm9nVsEG/</id>
+        <link href="http://localhost:4000/post/1mm9nVsEG/">
         </link>
         <updated>2022-10-17T16:16:27.000Z</updated>
         <content type="html"><![CDATA[<ol>
@@ -69,8 +69,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[【爱好研究所】策展艺术]]></title>
-        <id>https://lyeveyin.github.io/lyeve3Mars/post/NStnxlflx/</id>
-        <link href="https://lyeveyin.github.io/lyeve3Mars/post/NStnxlflx/">
+        <id>http://localhost:4000/post/NStnxlflx/</id>
+        <link href="http://localhost:4000/post/NStnxlflx/">
         </link>
         <updated>2022-10-17T15:46:47.000Z</updated>
         <summary type="html"><![CDATA[<p>开启【爱好研究所】这一主题的原因是看了lks收集各类爱好http://hobby.lkszj.info/ 以及分析其中几种爱好（比如喝威士忌）的视频，我虽然总自诩自己爱好广泛，但是都属于表面功夫，要让我说道一二，我也无话可说。所以我想慢慢培养自己对每个爱好的深度，并从中获得一定的知识。</p>
@@ -88,8 +88,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[无主义者]]></title>
-        <id>https://lyeveyin.github.io/lyeve3Mars/post/zfEmFqaqJ/</id>
-        <link href="https://lyeveyin.github.io/lyeve3Mars/post/zfEmFqaqJ/">
+        <id>http://localhost:4000/post/zfEmFqaqJ/</id>
+        <link href="http://localhost:4000/post/zfEmFqaqJ/">
         </link>
         <updated>2022-09-01T17:16:18.000Z</updated>
         <summary type="html"><![CDATA[<p>-ism、-is</p>
@@ -105,8 +105,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[【今日份探索】]]></title>
-        <id>https://lyeveyin.github.io/lyeve3Mars/post/q4lpsT98D/</id>
-        <link href="https://lyeveyin.github.io/lyeve3Mars/post/q4lpsT98D/">
+        <id>http://localhost:4000/post/q4lpsT98D/</id>
+        <link href="http://localhost:4000/post/q4lpsT98D/">
         </link>
         <updated>2022-08-21T16:46:06.000Z</updated>
         <content type="html"><![CDATA[<ol>
@@ -124,17 +124,17 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[ceshi]]></title>
-        <id>https://lyeveyin.github.io/lyeve3Mars/post/ceshi/</id>
-        <link href="https://lyeveyin.github.io/lyeve3Mars/post/ceshi/">
+        <id>http://localhost:4000/post/ceshi/</id>
+        <link href="http://localhost:4000/post/ceshi/">
         </link>
         <updated>2022-05-15T09:51:55.000Z</updated>
-        <content type="html"><![CDATA[<figure data-type="image" tabindex="1"><img src="https://lyeveyin.github.io/lyeve3Mars/post-images/1652608326936.jpg" alt="" loading="lazy"></figure>
+        <content type="html"><![CDATA[<figure data-type="image" tabindex="1"><img src="http://localhost:4000/post-images/1652608326936.jpg" alt="" loading="lazy"></figure>
 ]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[TO BE CONTINUED]]></title>
-        <id>https://lyeveyin.github.io/lyeve3Mars/post/about/</id>
-        <link href="https://lyeveyin.github.io/lyeve3Mars/post/about/">
+        <id>http://localhost:4000/post/about/</id>
+        <link href="http://localhost:4000/post/about/">
         </link>
         <updated>2022-05-15T08:40:48.000Z</updated>
         <content type="html"><![CDATA[<h1 id="20220515">20220515</h1>
@@ -144,8 +144,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[假如我是金某恩]]></title>
-        <id>https://lyeveyin.github.io/lyeve3Mars/post/jia-ru-wo-shi-jin-mou-en/</id>
-        <link href="https://lyeveyin.github.io/lyeve3Mars/post/jia-ru-wo-shi-jin-mou-en/">
+        <id>http://localhost:4000/post/jia-ru-wo-shi-jin-mou-en/</id>
+        <link href="http://localhost:4000/post/jia-ru-wo-shi-jin-mou-en/">
         </link>
         <updated>2022-05-15T08:20:03.000Z</updated>
         <content type="html"><![CDATA[<p>（灵感来源于看了朝鲜的建筑风格文章 突然突发奇想 如果我是金某恩 我会怎么做）</p>
