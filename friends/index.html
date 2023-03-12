@@ -1,12 +1,12 @@
 <html>
 
 <head>
-  <meta charset="utf-8" />
+    <meta charset="utf-8" />
 <meta name="description" content=" " />
 <meta name="keywords" content=" ">
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>
-    about | LYEVE&#39;S MARS
+    友链 | LYEVE&#39;S MARS
 </title>
 
 
@@ -28,17 +28,23 @@
 
 
 
+<link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
 
 
 
-  <!-- 防止浏览器缓存 -->
+
+
+
+
+    <!-- 防止浏览器缓存 -->
 <meta http-equiv="pragma" content="no-cache"> 
 <meta http-equiv="Cache-Control" content="no-cache, must-revalidate"> 
 <meta http-equiv="expires" content="Wed, 26 Feb 1997 08:21:57 GMT">
 </head>
 
 <body class="home blog custom-background round-avatars">
-  
+    
         
             <div class="Yarn_Background" style="background-image: url( https://lyeveyin.github.io/lyeve3Mars/media/images/bg.jpg);"></div>
         
@@ -148,44 +154,68 @@
     </div>
 </header>
 
-  <div id="main" class="content">
-    <div class="container">
-      <section class="post_content">
-        <h3 class="catalog-title yellow-under" style="margin-bottom: 5%;">当前标签：about </h3>
-        
 
+    <div id="main" class="content">
+        <div class="container">
+            <style>
+                body.custom-background {
+                    background: #fff
+                }
 
-    <div class="post post-layout-list aos-init aos-animate shadow" data-aos="fade-up">
-        <div class="status_list_item icon_kyubo">
-            
-                <div class="status_user" style="background-image: url(https://lyeveyin.github.io/lyeve3Mars/post-images/about.jpg);">
-
-                 
-                <div class="status_section">
-                    <a href="https://lyeveyin.github.io/lyeve3Mars/post/about/" class="status_btn">TO BE CONTINUED</a>
-                    <h5 class="review-item-creator"><b>发布日期：</b>2022-05-15</h5>
+                .container {
+                    padding: 10px 0px;
+                }
+            </style>
+            <section class="post_content">
+                <div class="links">
+                    <h3 class="catalog-title">我的邻居</h3>
+                    <div class="catalog-description"></div>
+                    <!-- <div class="catalog-share">4 items in collection</div> -->
+                    <!-- 提示开始 -->
                     
-                        <a href="https://lyeveyin.github.io/lyeve3Mars/tag/uuugpA9X_/" class="autotag">about</a>
+                    <!-- 提示结束 -->
+
+                    <!-- 友链开始 -->
+                    <div class="userItems">
                         
-                    
-                            <p class="section_p">20220515
-LYEVE飞往MARS的飞船搭建成功
-相关链接
-...</p>
-                        
+                        <!-- 友链结束 -->
+
+                    </div>
                 </div>
-            </div>
+            </section>
+            <div id="panel" style="display: block;">
+    <div class="comment-area">
+      <section class="comments">
+        <div class="comments-main">
+          
+          
+          <div id="gitalk-container"></div>
+          <script>
+    window.onload = function() {
+        var gitalk = new Gitalk({
+            clientID: '',
+            clientSecret: '',
+            repo: '',
+            owner: '',
+            admin: [''],
+            id: (location.pathname).substring(0, 49), // Ensure uniqueness and length less than 50
+            distractionFreeMode: false // Facebook-like distraction free mode
+        })
+
+        gitalk.render('gitalk-container')
+    }
+</script>
+          
+          
+          
         </div>
-    </div>
-    
-
-        
-
       </section>
-
     </div>
   </div>
-  
+        </div>
+    </div>
+
+    
 
   
 

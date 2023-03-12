@@ -1,305 +1,656 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <title>LYEVE&#39;S MARS</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=no"/>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
-    <meta name="renderer" content="webkit">
-    <meta http-equiv="Cache-Control" content="no-siteapp"/>
-    <link rel="stylesheet" href="/styles/main.css">
-    <link rel="stylesheet" href="//cdnjs.loli.net/ajax/libs/mdui/0.4.3/css/mdui.min.css">
-    <link rel="stylesheet" href="/media/css/index.css">
-    <link rel="stylesheet" href="/media/live2d/css/live2d.css" />
-    
-    <style>
-        #centerbg{
-            background-image: url(https://img.zcool.cn/community/016ea45664ffd86ac725b2c808de1c.jpg?x-oss-process=image/auto-orient,1/resize,m_lfit,w_1280,limit_1/sharpen,100/format,webp/quality,q_100);
-        }
-    </style>
+    <meta charset="utf-8" />
+<meta name="description" content=" " />
+<meta name="keywords" content=" ">
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>
+    LYEVE&#39;S MARS
+</title>
+
+
+
+    <!-- 没开启静态资源加速 -->
+<link rel="shortcut icon" href="https://lyeveyin.github.io/lyeve3Mars/favicon.ico?v=1678603566332">
+<link rel="stylesheet" href="https://lyeveyin.github.io/lyeve3Mars/styles/main.css">
+<link rel="stylesheet" href="https://lyeveyin.github.io/lyeve3Mars/media/css/prism.css">
+<link rel="stylesheet" href="https://lyeveyin.github.io/lyeve3Mars/media/css/font-awesome.min.css">
+<script type='text/javascript' src='https://lyeveyin.github.io/lyeve3Mars/media/js/jquery.min.js'></script>
+<script type='text/javascript' src='https://lyeveyin.github.io/lyeve3Mars/media/js/plugins.js'></script>
+<script type='text/javascript' src='https://lyeveyin.github.io/lyeve3Mars/media/js/script.js'></script>
+<script type='text/javascript' src='https://lyeveyin.github.io/lyeve3Mars/media/js/aos.js'></script>
+<script type='text/javascript' src='https://lyeveyin.github.io/lyeve3Mars/media/js/prism.js'></script>
+
+
+<link rel="stylesheet" href="https://unpkg.com/autocjs@1.3.0/dist/autoc.min.css">
+<script type="text/javascript" src="https://unpkg.com/autocjs@1.3.0/dist/autoc.min.js"></script>
+
+
+
+
+
+
+    <!-- 防止浏览器缓存 -->
+<meta http-equiv="pragma" content="no-cache"> 
+<meta http-equiv="Cache-Control" content="no-cache, must-revalidate"> 
+<meta http-equiv="expires" content="Wed, 26 Feb 1997 08:21:57 GMT">
 </head>
-<body class=" mdui-loaded">
-<header class="mdui-toolbar mdui-color-theme mdui-appbar-fixed mdui-appbar-scroll-toolbar-hide" style="z-index: 1000">
-    <a href="javascript:;" mdui-drawer="{target: '#left-drawer',overlay:true}" class="mdui-btn mdui-btn-icon"><i class="mdui-icon material-icons">menu</i></a>
-    <span class="mdui-typo-title">LYEVE&#39;S MARS</span>
-    <div class="mdui-toolbar-spacer"></div>
-<!--    <a href="javascript:history.go(0);" class="mdui-btn mdui-btn-icon"><i class="mdui-icon material-icons">search</i></a>-->
-    <a href="javascript:;" class="mdui-btn mdui-btn-icon"><i class="mdui-icon material-icons">more_vert</i></a>
-</header>
-<div class="meteor">
-    <div class="red" style="left:600px;"></div>
-    <div class="orange" style="left:700px;"></div>
-    <div class="yellow" style="left:900px;"></div>
-    <div class="green" style="left:1100px;"></div>
-    <div class="cyan" style="left:1260px;"></div>
-    <div class="blue" style="left:1400px;"></div>
-    <div class="purple" style="left:1500px;"></div>
-    <div class="red" style="left:0px;"></div>
-    <div class="orange" style="left:100px;"></div>
-    <div class="yellow" style="left:300px;"></div>
-    <div class="green" style="left:500px;"></div>
-    <div class="cyan" style="left:660px;"></div>
-    <div class="blue" style="left:800px;"></div>
-    <div class="purple" style="left:900px;"></div>
-    <div class="red" style="left:1200px;"></div>
-    <div class="orange" style="left:1300px;"></div>
-    <div class="yellow" style="left:1500px;"></div>
-    <div class="green" style="left:1700px;"></div>
-    <div class="cyan" style="left:1860px;"></div>
-    <div class="blue" style="left:2000px;"></div>
-    <div class="purple" style="left:2100px;"></div>
+
+<body class="home blog custom-background round-avatars">
+    
+        
+            <div class="Yarn_Background" style="background-image: url( https://lyeveyin.github.io/lyeve3Mars/media/images/bg.jpg);"></div>
+        
+     
+    <!-- 搜索开始 -->
+
+<div class="js-search search-form search-form--modal">
+    <div class="search-form__inner">
+        <div>
+            <div id="search-container" class="ajax_search">
+                <form method="get" id="gridea-search-form" action="https://lyeveyin.github.io/lyeve3Mars/search/">
+                    <div class="filter_container">
+                        <input type="text" value="" autocomplete="off" placeholder="请输入要搜索的内容" name="q" id="search-input" />
+                        <ul id="search_filtered" class="search_filtered"></ul>
+                    </div>
+                    <!-- <input type="submit" name="submit" id="searchsubmit" class="searchsubmit" value="" /> -->
+                </form>
+            </div>
+        </div>
+    </div>
 </div>
-<div class="mdui-drawer mdui-color-white mdui-drawer-full-height mdui-drawer-close" id="left-drawer">
-    <ul class="mdui-list">
-        <li class="mdui-subheader">菜单</li>
-        
-        <li class="mdui-list-item mdui-ripple">
-            <a href="http://localhost:4000" class="mdui-list-item-content">首页</a>
-        </li>
-        
-        <li class="mdui-list-item mdui-ripple">
-            <a href="http://localhost:4000/archives" class="mdui-list-item-content">归档</a>
-        </li>
-        
-        <li class="mdui-list-item mdui-ripple">
-            <a href="http://localhost:4000/tags" class="mdui-list-item-content">标签</a>
-        </li>
-        
-        <li class="mdui-list-item mdui-ripple">
-            <a href="http://localhost:4000/post/about" class="mdui-list-item-content">更新日志</a>
-        </li>
-        
-    </ul>
+<!-- 搜索结束 -->
+<div class="navi" data-aos="fade-down">
+    <div class="bt-nav">
+        <div class="line line1"></div>
+        <div class="line line2"></div>
+        <div class="line line3"></div>
+    </div>
+    <div class="navbar animated fadeInRight">
+        <div class="inner">
+            <nav id="site-navigation" class="main-navigation">
+                <div id="main-menu" class="main-menu-container">
+                    <div class="menu-menu-container">
+                        <ul id="primary-menu" class="menu">
+                            
+                                
+                                        <li class="menu-item menu-item-type-post_type menu-item-object-page">
+                                            <a href="https://lyeveyin.github.io/lyeve3Mars">
+                                                首页
+                                            </a>
+                                        </li>
+                                        
+                                            
+                                
+                                        <li class="menu-item menu-item-type-post_type menu-item-object-page">
+                                            <a href="https://lyeveyin.github.io/lyeve3Mars/archives">
+                                                归档
+                                            </a>
+                                        </li>
+                                        
+                                            
+                                
+                                        <li class="menu-item menu-item-type-post_type menu-item-object-page">
+                                            <a href="https://lyeveyin.github.io/lyeve3Mars/tags">
+                                                标签
+                                            </a>
+                                        </li>
+                                        
+                                            
+                                
+                                        <li class="menu-item menu-item-type-post_type menu-item-object-page">
+                                            <a href="https://lyeveyin.github.io/lyeve3Mars/post/about">
+                                                更新日志
+                                            </a>
+                                        </li>
+                                        
+                                            
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <!-- #site-navigation -->
+        </div>
+    </div>
+</div>
+<div class="hebin" data-aos="fade-down">
+    <i class=" js-toggle-search fa fa-search"></i>
+</div>
+<header id="masthead" class="overlay animated from-bottom" itemprop="brand">
+    <div class="site-branding text-center">
+        <a href="">
+            <figure>
+                
+                    <img class="custom-logo avatar" src="https://lyeveyin.github.io/lyeve3Mars/images/avatar.png?v=1678603566332" />
+                    
+            </figure>
+        </a>
+        <h3 class="blog-description"><p>头脑风暴</p></h3>
+    </div>
+    <!-- .site-branding -->
+    <div class="decor-part">
+        <div id="particles-js"></div>
+    </div>
+    <div class="animation-header">
+        <div class="decor-wrapper">
+            <svg id="header-decor" class="decor bottom" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 100 100" preserveAspectRatio="none">
+                <path class="large left" d="M0 0 L50 50 L0 100" fill="rgba(255,255,255, .1)"></path>
+                <path class="large right" d="M100 0 L50 50 L100 100" fill="rgba(255,255,255, .1)"></path>
+                <path class="medium left" d="M0 100 L50 50 L0 33.3" fill="rgba(255,255,255, .3)"></path>
+                <path class="medium right" d="M100 100 L50 50 L100 33.3" fill="rgba(255,255,255, .3)"></path>
+                <path class="small left" d="M0 100 L50 50 L0 66.6" fill="rgba(255,255,255, .5)"></path>
+                <path class="small right" d="M100 100 L50 50 L100 66.6" fill="rgba(255,255,255, .5)"></path>
+                <path d="M0 99.9 L50 49.9 L100 99.9 L0 99.9" fill="rgba(255,255,255, 1)"></path>
+                <path d="M48 52 L50 49 L52 52 L48 52" fill="rgba(255,255,255, 1)"></path>
+            </svg>
+        </div>
+    </div>
+</header>
+
+    <div id="main" class="content">
+        <div class="container">
+            <!--  -->
+              
+
+            <article itemscope="itemscope">
+                
+                    
+
+<div class="post post-layout-list shadow" data-aos="fade-up">
+    <div class="postnormal review ">
+        <div class="post-container review-item">
+            <div class="row review-item-wrapper">
+                <!-- 文章列表小图开始 -->
+                <div class="col-sm-3">
+                    <a rel="nofollow" href="https://lyeveyin.github.io/lyeve3Mars/post/about/">
+                        
+                        <div class="review-item-img" style="background-image: url(https://lyeveyin.github.io/lyeve3Mars/post-images/about.jpg);"></div>
+                        
+                    </a>
+                </div>
+                <!-- 文章列表小图结束 -->
+                <div class="col-sm-9 flex-xs-middle">
+                    <div class="review-item-title">
+                        <a href="https://lyeveyin.github.io/lyeve3Mars/post/about/" rel="bookmark">TO BE CONTINUED</a>
+                    </div>
+                    <div class="review-item-creator"><b>发布日期：</b>2022-05-15</div>
+                    <!-- <span class="review-item-info"><b>总浏览量：</b>1600 reads</span> -->
+                    <!-- Tag -->
+                    
+                    <a href="https://lyeveyin.github.io/lyeve3Mars/tag/uuugpA9X_/" class="autotag">about</a>
+                    
+
+                </div>
+            </div>
+            <!-- 文章列表大图开始 -->
+            <div class="review-bg-wrapper">
+                
+                <div class="bg-blur" style="background-image: url(https://lyeveyin.github.io/lyeve3Mars/post-images/about.jpg);"></div>
+                
+            </div>
+            <!-- 文章列表大图结束 -->
+        </div>
+        <div class="post-container">
+            
+            <div class="entry-content">20220515
+LYEVE飞往MARS的飞船搭建成功
+相关链接
+...</div>
+            
+            <div class="post-footer">
+                <a class="gaz-btn primary" href="https://lyeveyin.github.io/lyeve3Mars/post/about/">READ MORE</a>
+                <span class="total-comments-on-post pull-right"><a href=""><span class="valine-comment-count"
+                            data-xid="/post/about/"></span>
+                        Comments</a></span>
+
+            </div>
+        </div>
+    </div>
 </div>
 
-<div class="headertop filter-grid" >
-    <figure id="centerbg" class="centerbg" style="">
-        <div class="focusinfo">
-            <div class="header-tou">
-                <a href=">">
-                    <img src="/images/avatar.png">
-                </a>
-            </div>
-            <div class="header-info">
-                <p>头脑风暴</p>
-            </div>
-            <div class="top-social">
-                
-                
-                <li>
-                    <a href="https://www.bilibili.com/" target="_blank" class="social-bili" title="bilibili">
-                        <div class="www" id="bilibili"></div>
+<div class="post post-layout-list shadow" data-aos="fade-up">
+    <div class="postnormal review ">
+        <div class="post-container review-item">
+            <div class="row review-item-wrapper">
+                <!-- 文章列表小图开始 -->
+                <div class="col-sm-3">
+                    <a rel="nofollow" href="https://lyeveyin.github.io/lyeve3Mars/post/8tdFTTUM4/">
+                        
+                        <div class="review-item-img" style="background-image: url(https://lyeveyin.github.io/lyeve3Mars/post-images/8tdFTTUM4.jpg);"></div>
+                        
                     </a>
-                </li>
+                </div>
+                <!-- 文章列表小图结束 -->
+                <div class="col-sm-9 flex-xs-middle">
+                    <div class="review-item-title">
+                        <a href="https://lyeveyin.github.io/lyeve3Mars/post/8tdFTTUM4/" rel="bookmark">【观星指南】</a>
+                    </div>
+                    <div class="review-item-creator"><b>发布日期：</b>2023-03-12</div>
+                    <!-- <span class="review-item-info"><b>总浏览量：</b>1600 reads</span> -->
+                    <!-- Tag -->
+                    
+
+                </div>
+            </div>
+            <!-- 文章列表大图开始 -->
+            <div class="review-bg-wrapper">
                 
+                <div class="bg-blur" style="background-image: url(https://lyeveyin.github.io/lyeve3Mars/post-images/8tdFTTUM4.jpg);"></div>
                 
+            </div>
+            <!-- 文章列表大图结束 -->
+        </div>
+        <div class="post-container">
+            
+            <div class="entry-content">天文学
+...</div>
+            
+            <div class="post-footer">
+                <a class="gaz-btn primary" href="https://lyeveyin.github.io/lyeve3Mars/post/8tdFTTUM4/">READ MORE</a>
+                <span class="total-comments-on-post pull-right"><a href=""><span class="valine-comment-count"
+                            data-xid="/post/8tdFTTUM4/"></span>
+                        Comments</a></span>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="post post-layout-list shadow" data-aos="fade-up">
+    <div class="postnormal review ">
+        <div class="post-container review-item">
+            <div class="row review-item-wrapper">
+                <!-- 文章列表小图开始 -->
+                <div class="col-sm-3">
+                    <a rel="nofollow" href="https://lyeveyin.github.io/lyeve3Mars/post/1mm9nVsEG/">
+                        
+                        <div class="review-item-img" style="background-image: url(https://lyeveyin.github.io/lyeve3Mars/post-images/1mm9nVsEG.jpg);"></div>
+                        
+                    </a>
+                </div>
+                <!-- 文章列表小图结束 -->
+                <div class="col-sm-9 flex-xs-middle">
+                    <div class="review-item-title">
+                        <a href="https://lyeveyin.github.io/lyeve3Mars/post/1mm9nVsEG/" rel="bookmark">【爱好研究所】整理</a>
+                    </div>
+                    <div class="review-item-creator"><b>发布日期：</b>2022-10-18</div>
+                    <!-- <span class="review-item-info"><b>总浏览量：</b>1600 reads</span> -->
+                    <!-- Tag -->
+                    
+
+                </div>
+            </div>
+            <!-- 文章列表大图开始 -->
+            <div class="review-bg-wrapper">
+                
+                <div class="bg-blur" style="background-image: url(https://lyeveyin.github.io/lyeve3Mars/post-images/1mm9nVsEG.jpg);"></div>
+                
+            </div>
+            <!-- 文章列表大图结束 -->
+        </div>
+        <div class="post-container">
+            
+            <div class="entry-content">
+看展
+逛博物馆
+探索商场与书店
+摄影
+乒乓跑步等运动
+整理收纳
+动漫
+旅游
+天文宇宙
+写博客
+听播客
+听广播剧
+看剧
+建筑
+画画
+魔方
+网页制作
+麻将
+逛b站
+学语言
+追星
+口技
+说唱
+看书
+围棋
+转笔
+脱口秀
+考古
+话剧
+写日记
+喝饮料
+吉他
+推理、密室逃脱
+数学物理等知识
+听音乐
+配音
+puzzle
+网络谜踪
+
+...</div>
+            
+            <div class="post-footer">
+                <a class="gaz-btn primary" href="https://lyeveyin.github.io/lyeve3Mars/post/1mm9nVsEG/">READ MORE</a>
+                <span class="total-comments-on-post pull-right"><a href=""><span class="valine-comment-count"
+                            data-xid="/post/1mm9nVsEG/"></span>
+                        Comments</a></span>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="post post-layout-list shadow" data-aos="fade-up">
+    <div class="postnormal review ">
+        <div class="post-container review-item">
+            <div class="row review-item-wrapper">
+                <!-- 文章列表小图开始 -->
+                <div class="col-sm-3">
+                    <a rel="nofollow" href="https://lyeveyin.github.io/lyeve3Mars/post/NStnxlflx/">
+                        
+                        <div class="review-item-img" style="background-image: url(https://lyeveyin.github.io/lyeve3Mars/post-images/NStnxlflx.jpg);"></div>
+                        
+                    </a>
+                </div>
+                <!-- 文章列表小图结束 -->
+                <div class="col-sm-9 flex-xs-middle">
+                    <div class="review-item-title">
+                        <a href="https://lyeveyin.github.io/lyeve3Mars/post/NStnxlflx/" rel="bookmark">【爱好研究所】策展艺术</a>
+                    </div>
+                    <div class="review-item-creator"><b>发布日期：</b>2022-10-17</div>
+                    <!-- <span class="review-item-info"><b>总浏览量：</b>1600 reads</span> -->
+                    <!-- Tag -->
+                    
+
+                </div>
+            </div>
+            <!-- 文章列表大图开始 -->
+            <div class="review-bg-wrapper">
+                
+                <div class="bg-blur" style="background-image: url(https://lyeveyin.github.io/lyeve3Mars/post-images/NStnxlflx.jpg);"></div>
+                
+            </div>
+            <!-- 文章列表大图结束 -->
+        </div>
+        <div class="post-container">
+            
+            <div class="entry-content">&lt;p&gt;开启【爱好研究所】这一主题的原因是看了lks收集各类爱好http://hobby.lkszj.info/ 以及分析其中几种爱好（比如喝威士忌）的视频，我虽然总自诩自己爱好广泛，但是都属于表面功夫，要让我说道一二，我也无话可说。所以我想慢慢培养自己对每个爱好的深度，并从中获得一定的知识。&lt;/p&gt;
+</div>
+            
+            <div class="post-footer">
+                <a class="gaz-btn primary" href="https://lyeveyin.github.io/lyeve3Mars/post/NStnxlflx/">READ MORE</a>
+                <span class="total-comments-on-post pull-right"><a href=""><span class="valine-comment-count"
+                            data-xid="/post/NStnxlflx/"></span>
+                        Comments</a></span>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="post post-layout-list shadow" data-aos="fade-up">
+    <div class="postnormal review ">
+        <div class="post-container review-item">
+            <div class="row review-item-wrapper">
+                <!-- 文章列表小图开始 -->
+                <div class="col-sm-3">
+                    <a rel="nofollow" href="https://lyeveyin.github.io/lyeve3Mars/post/zfEmFqaqJ/">
+                        
+                        <div class="review-item-img" style="background-image: url(https://lyeveyin.github.io/lyeve3Mars/post-images/zfEmFqaqJ.jpg);"></div>
+                        
+                    </a>
+                </div>
+                <!-- 文章列表小图结束 -->
+                <div class="col-sm-9 flex-xs-middle">
+                    <div class="review-item-title">
+                        <a href="https://lyeveyin.github.io/lyeve3Mars/post/zfEmFqaqJ/" rel="bookmark">无主义者</a>
+                    </div>
+                    <div class="review-item-creator"><b>发布日期：</b>2022-09-02</div>
+                    <!-- <span class="review-item-info"><b>总浏览量：</b>1600 reads</span> -->
+                    <!-- Tag -->
+                    
+                    <a href="https://lyeveyin.github.io/lyeve3Mars/tag/khlwgqIV4/" class="autotag">设计</a>
+                    
+
+                </div>
+            </div>
+            <!-- 文章列表大图开始 -->
+            <div class="review-bg-wrapper">
+                
+                <div class="bg-blur" style="background-image: url(https://lyeveyin.github.io/lyeve3Mars/post-images/zfEmFqaqJ.jpg);"></div>
+                
+            </div>
+            <!-- 文章列表大图结束 -->
+        </div>
+        <div class="post-container">
+            
+            <div class="entry-content">&lt;p&gt;-ism、-is&lt;/p&gt;
+</div>
+            
+            <div class="post-footer">
+                <a class="gaz-btn primary" href="https://lyeveyin.github.io/lyeve3Mars/post/zfEmFqaqJ/">READ MORE</a>
+                <span class="total-comments-on-post pull-right"><a href=""><span class="valine-comment-count"
+                            data-xid="/post/zfEmFqaqJ/"></span>
+                        Comments</a></span>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="post post-layout-list shadow" data-aos="fade-up">
+    <div class="postnormal review ">
+        <div class="post-container review-item">
+            <div class="row review-item-wrapper">
+                <!-- 文章列表小图开始 -->
+                <div class="col-sm-3">
+                    <a rel="nofollow" href="https://lyeveyin.github.io/lyeve3Mars/post/q4lpsT98D/">
+                        
+                        <div class="review-item-img" style="background-image: url(https://lyeveyin.github.io/lyeve3Mars/post-images/q4lpsT98D.webp);"></div>
+                        
+                    </a>
+                </div>
+                <!-- 文章列表小图结束 -->
+                <div class="col-sm-9 flex-xs-middle">
+                    <div class="review-item-title">
+                        <a href="https://lyeveyin.github.io/lyeve3Mars/post/q4lpsT98D/" rel="bookmark">【今日份探索】</a>
+                    </div>
+                    <div class="review-item-creator"><b>发布日期：</b>2022-08-22</div>
+                    <!-- <span class="review-item-info"><b>总浏览量：</b>1600 reads</span> -->
+                    <!-- Tag -->
+                    
+
+                </div>
+            </div>
+            <!-- 文章列表大图开始 -->
+            <div class="review-bg-wrapper">
+                
+                <div class="bg-blur" style="background-image: url(https://lyeveyin.github.io/lyeve3Mars/post-images/q4lpsT98D.webp);"></div>
+                
+            </div>
+            <!-- 文章列表大图结束 -->
+        </div>
+        <div class="post-container">
+            
+            <div class="entry-content">
+
+B站up主——RightClick右键
+
+
+小宇宙节目——《空间》《基本无害》《无聊斋》《谐星聊天会》
+
+
+网页——https://www.sstm-sam.org.cn/#/home
+
+
+...</div>
+            
+            <div class="post-footer">
+                <a class="gaz-btn primary" href="https://lyeveyin.github.io/lyeve3Mars/post/q4lpsT98D/">READ MORE</a>
+                <span class="total-comments-on-post pull-right"><a href=""><span class="valine-comment-count"
+                            data-xid="/post/q4lpsT98D/"></span>
+                        Comments</a></span>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="post post-layout-list shadow" data-aos="fade-up">
+    <div class="postnormal review ">
+        <div class="post-container review-item">
+            <div class="row review-item-wrapper">
+                <!-- 文章列表小图开始 -->
+                <div class="col-sm-3">
+                    <a rel="nofollow" href="https://lyeveyin.github.io/lyeve3Mars/post/ceshi/">
+                        
+                        <div class="review-item-img" style="background-image: url(https://lyeveyin.github.io/lyeve3Mars/post-images/ceshi.jpg);"></div>
+                        
+                    </a>
+                </div>
+                <!-- 文章列表小图结束 -->
+                <div class="col-sm-9 flex-xs-middle">
+                    <div class="review-item-title">
+                        <a href="https://lyeveyin.github.io/lyeve3Mars/post/ceshi/" rel="bookmark">ceshi</a>
+                    </div>
+                    <div class="review-item-creator"><b>发布日期：</b>2022-05-15</div>
+                    <!-- <span class="review-item-info"><b>总浏览量：</b>1600 reads</span> -->
+                    <!-- Tag -->
+                    
+
+                </div>
+            </div>
+            <!-- 文章列表大图开始 -->
+            <div class="review-bg-wrapper">
+                
+                <div class="bg-blur" style="background-image: url(https://lyeveyin.github.io/lyeve3Mars/post-images/ceshi.jpg);"></div>
+                
+            </div>
+            <!-- 文章列表大图结束 -->
+        </div>
+        <div class="post-container">
+            
+            <div class="entry-content">
+...</div>
+            
+            <div class="post-footer">
+                <a class="gaz-btn primary" href="https://lyeveyin.github.io/lyeve3Mars/post/ceshi/">READ MORE</a>
+                <span class="total-comments-on-post pull-right"><a href=""><span class="valine-comment-count"
+                            data-xid="/post/ceshi/"></span>
+                        Comments</a></span>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="post post-layout-list shadow" data-aos="fade-up">
+    <div class="postnormal review ">
+        <div class="post-container review-item">
+            <div class="row review-item-wrapper">
+                <!-- 文章列表小图开始 -->
+                <div class="col-sm-3">
+                    <a rel="nofollow" href="https://lyeveyin.github.io/lyeve3Mars/post/jia-ru-wo-shi-jin-mou-en/">
+                        
+                        <div class="review-item-img" style="background-image: url(https://lyeveyin.github.io/lyeve3Mars/post-images/jia-ru-wo-shi-jin-mou-en.jpg);"></div>
+                        
+                    </a>
+                </div>
+                <!-- 文章列表小图结束 -->
+                <div class="col-sm-9 flex-xs-middle">
+                    <div class="review-item-title">
+                        <a href="https://lyeveyin.github.io/lyeve3Mars/post/jia-ru-wo-shi-jin-mou-en/" rel="bookmark">假如我是金某恩</a>
+                    </div>
+                    <div class="review-item-creator"><b>发布日期：</b>2022-05-15</div>
+                    <!-- <span class="review-item-info"><b>总浏览量：</b>1600 reads</span> -->
+                    <!-- Tag -->
+                    
+                    <a href="https://lyeveyin.github.io/lyeve3Mars/tag/LTRUrrFGN/" class="autotag">建筑</a>
+                    
+
+                </div>
+            </div>
+            <!-- 文章列表大图开始 -->
+            <div class="review-bg-wrapper">
+                
+                <div class="bg-blur" style="background-image: url(https://lyeveyin.github.io/lyeve3Mars/post-images/jia-ru-wo-shi-jin-mou-en.jpg);"></div>
+                
+            </div>
+            <!-- 文章列表大图结束 -->
+        </div>
+        <div class="post-container">
+            
+            <div class="entry-content">（灵感来源于看了朝鲜的建筑风格文章 突然突发奇想 如果我是金某恩 我会怎么做）
+...</div>
+            
+            <div class="post-footer">
+                <a class="gaz-btn primary" href="https://lyeveyin.github.io/lyeve3Mars/post/jia-ru-wo-shi-jin-mou-en/">READ MORE</a>
+                <span class="total-comments-on-post pull-right"><a href=""><span class="valine-comment-count"
+                            data-xid="/post/jia-ru-wo-shi-jin-mou-en/"></span>
+                        Comments</a></span>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+        new Valine({
+            el: '#vcomments',
+            appId: '',
+            appKey:'',
+            visitor: true, // 阅读量统计
+            placeholder: '请留下你的评论吧！' 
+        })
+    </script>
                  
                 
-                
-                <li>
-                    <a href="https://www.bilibili.com/" target="_blank" class="social-wangyiyun" title="Twitter">
-                        <div class="www" id="github"></div>
-                    </a>
-                </li>
-                
-                
-                
-
-            </div>
-        </div>
-    </figure>
-</div>
-<div class="mdui-container">
-    <div class="mdui-row mdui-row-gapless">
-        <div class="k-container">
-            <div class="head_card-offset"></div>
-            <div class="head_card-offset"></div>
-            
-    <div class="mdui-card">
-        <div class="mdui-card-media">
-            <img src="http://localhost:4000/post-images/about.jpg"/>
-            <div class="mdui-card-media-covered">
-                <div class="mdui-card-primary">
-                    <div class="mdui-card-primary-title">TO BE CONTINUED</div>
-                    <div class="mdui-card-primary-subtitle"></div>
-                </div>
-                <div class="mdui-card-actions" style="float:right;">
-                    <a href="http://localhost:4000/post/about/" class="mdui-btn mdui-ripple mdui-ripple-white">点击查看</a>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="head_card-offset"></div>
-
-    <div class="mdui-card">
-        <div class="mdui-card-media">
-            <img src="http://localhost:4000/post-images/8tdFTTUM4.jpg"/>
-            <div class="mdui-card-media-covered">
-                <div class="mdui-card-primary">
-                    <div class="mdui-card-primary-title">【观星指南】</div>
-                    <div class="mdui-card-primary-subtitle"></div>
-                </div>
-                <div class="mdui-card-actions" style="float:right;">
-                    <a href="http://localhost:4000/post/8tdFTTUM4/" class="mdui-btn mdui-ripple mdui-ripple-white">点击查看</a>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="head_card-offset"></div>
-
-    <div class="mdui-card">
-        <div class="mdui-card-media">
-            <img src="http://localhost:4000/post-images/1mm9nVsEG.jpg"/>
-            <div class="mdui-card-media-covered">
-                <div class="mdui-card-primary">
-                    <div class="mdui-card-primary-title">【爱好研究所】整理</div>
-                    <div class="mdui-card-primary-subtitle"></div>
-                </div>
-                <div class="mdui-card-actions" style="float:right;">
-                    <a href="http://localhost:4000/post/1mm9nVsEG/" class="mdui-btn mdui-ripple mdui-ripple-white">点击查看</a>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="head_card-offset"></div>
-
-    <div class="mdui-card">
-        <div class="mdui-card-media">
-            <img src="http://localhost:4000/post-images/NStnxlflx.jpg"/>
-            <div class="mdui-card-media-covered">
-                <div class="mdui-card-primary">
-                    <div class="mdui-card-primary-title">【爱好研究所】策展艺术</div>
-                    <div class="mdui-card-primary-subtitle"><p>开启【爱好研究所】这一主题的原因是看了lks收集各类爱好http://hobby.lkszj.info/ 以及分析其中几种爱好（比如喝威士忌）的视频，我虽然总自诩自己爱好广泛，但是都属于表面功夫，要让我说道一二，我也无话可说。所以我想慢慢培养自己对每个爱好的深度，并从中获得一定的知识。</p>
-</div>
-                </div>
-                <div class="mdui-card-actions" style="float:right;">
-                    <a href="http://localhost:4000/post/NStnxlflx/" class="mdui-btn mdui-ripple mdui-ripple-white">点击查看</a>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="head_card-offset"></div>
-
-    <div class="mdui-card">
-        <div class="mdui-card-media">
-            <img src="http://localhost:4000/post-images/zfEmFqaqJ.jpg"/>
-            <div class="mdui-card-media-covered">
-                <div class="mdui-card-primary">
-                    <div class="mdui-card-primary-title">无主义者</div>
-                    <div class="mdui-card-primary-subtitle"><p>-ism、-is</p>
-</div>
-                </div>
-                <div class="mdui-card-actions" style="float:right;">
-                    <a href="http://localhost:4000/post/zfEmFqaqJ/" class="mdui-btn mdui-ripple mdui-ripple-white">点击查看</a>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="head_card-offset"></div>
-
-    <div class="mdui-card">
-        <div class="mdui-card-media">
-            <img src="http://localhost:4000/post-images/q4lpsT98D.webp"/>
-            <div class="mdui-card-media-covered">
-                <div class="mdui-card-primary">
-                    <div class="mdui-card-primary-title">【今日份探索】</div>
-                    <div class="mdui-card-primary-subtitle"></div>
-                </div>
-                <div class="mdui-card-actions" style="float:right;">
-                    <a href="http://localhost:4000/post/q4lpsT98D/" class="mdui-btn mdui-ripple mdui-ripple-white">点击查看</a>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="head_card-offset"></div>
-
-    <div class="mdui-card">
-        <div class="mdui-card-media">
-            <img src="http://localhost:4000/post-images/ceshi.jpg"/>
-            <div class="mdui-card-media-covered">
-                <div class="mdui-card-primary">
-                    <div class="mdui-card-primary-title">ceshi</div>
-                    <div class="mdui-card-primary-subtitle"></div>
-                </div>
-                <div class="mdui-card-actions" style="float:right;">
-                    <a href="http://localhost:4000/post/ceshi/" class="mdui-btn mdui-ripple mdui-ripple-white">点击查看</a>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="head_card-offset"></div>
-
-    <div class="mdui-card">
-        <div class="mdui-card-media">
-            <img src="http://localhost:4000/post-images/jia-ru-wo-shi-jin-mou-en.jpg"/>
-            <div class="mdui-card-media-covered">
-                <div class="mdui-card-primary">
-                    <div class="mdui-card-primary-title">假如我是金某恩</div>
-                    <div class="mdui-card-primary-subtitle"></div>
-                </div>
-                <div class="mdui-card-actions" style="float:right;">
-                    <a href="http://localhost:4000/post/jia-ru-wo-shi-jin-mou-en/" class="mdui-btn mdui-ripple mdui-ripple-white">点击查看</a>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="head_card-offset"></div>
-
-
-        </div>
-    </div>
-    <div class="mdui-row">
-    </div>
-</div>
-<footer class="mdui-container footer ">
-    <div class="head_card-offset"></div>
-    <div class="mdui-row mdui-row-gapless">
-        <div class="k-container">
-            <img width="100%" src="/media/img/skirt.png">
+            </article>
         </div>
     </div>
 
-    <div class="site-info">
-        by lyeve
+    
+
+  
+
+
+<script type='text/javascript' src='https://lyeveyin.github.io/lyeve3Mars/media/js/particles.js'></script>
+
+
+<footer id="footer" class="overlay animated from-top">
+    <div class="decor-wrapper">
+        <svg id="footer-decor" class="decor top" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 100 100"
+            preserveAspectRatio="none">
+            <path class="large left" d="M0 0 L50 50 L0 100" fill="rgba(255,255,255, .1)"></path>
+            <path class="large right" d="M100 0 L50 50 L100 100" fill="rgba(255,255,255, .1)"></path>
+            <path class="medium left" d="M0 0 L50 50 L0 66.6" fill="rgba(255,255,255, .3)"></path>
+            <path class="medium right" d="M100 0 L50 50 L100 66.6" fill="rgba(255,255,255, .3)"></path>
+            <path class="small left" d="M0 0 L50 50 L0 33.3" fill="rgba(255,255,255, .5)"></path>
+            <path class="small right" d="M100 0 L50 50 L100 33.3" fill="rgba(255,255,255, .5)"></path>
+            <path d="M0 0 L50 50 L100 0 L0 0" fill="rgba(255,255,255, 1)"></path>
+            <path d="M48 48 L50 51 L52 48 L48 48" fill="rgba(255,255,255, 1)"></path>
+        </svg>
+    </div>
+    <div class="socialize" data-aos="zoom-in">
+        
+        
+        
+        
+        
+        
+
+    </div>
+    <div class="cr">
+        Copyright&copy;
+        by lyeve |
+        <a class="rss" href="https://lyeveyin.github.io/lyeve3Mars/atom.xml" target="_blank">RSS</a>
     </div>
 </footer>
-<div id="landlord" style="left:5px;bottom:0px;">
-    <div class="message" style="opacity:0"></div>
-    <canvas id="live2d" width="500" height="560" class="live2d"></canvas>
-    <div class="live_talk_input_body">
-        <div class="live_talk_input_name_body">
-            <input name="name" type="text" class="live_talk_name white_input" id="AIuserName" autocomplete="off" placeholder="你的名字" />
-        </div>
-        <div class="live_talk_input_text_body">
-            <input name="talk" type="text" class="live_talk_talk white_input" id="AIuserText" autocomplete="off" placeholder="要和我聊什么呀？"/>
-            <button type="button" class="live_talk_send_btn" id="talk_send">发送</button>
-        </div>
-    </div>
-    <input name="live_talk" id="live_talk" value="1" type="hidden" />
-    <div class="live_ico_box">
-        <div class="live_ico_item type_info" id="showInfoBtn"></div>
-        <div class="live_ico_item type_talk" id="showTalkBtn"></div>
-        <div class="live_ico_item type_music" id="musicButton"></div>
-        <div class="live_ico_item type_youdu" id="youduButton"></div>
-        <div class="live_ico_item type_quit" id="hideButton"></div>
-        <input name="live_statu_val" id="live_statu_val" value="0" type="hidden" />
-        <audio src="" style="display:none;" id="live2d_bgm" data-bgm="0" preload="none"></audio>
-        <input name="live2dBGM" value="https://img.apa70.com/123.mp3" type="hidden">
-        <input name="live2dBGM" value="https://img.apa70.com/123.mp3" type="hidden">
-        <input id="duType" value="douqilai,l2d_caihong" type="hidden">
-    </div>
-</div>
-<div id="open_live2d">召唤伊斯特瓦尔</div>
-<script>
-    var message_Path = '/media/live2d/';//资源目录，如果目录不对请更改
-    var talkAPI = "";//如果有类似图灵机器人的聊天接口请填写接口路径
-</script>
-<!--<script src="/media/js/jquery-3.3.1.min.js"></script>-->
-<script src="//apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
-<script type="text/javascript" src="/media/live2d/js/live2d.js"></script>
-<script type="text/javascript" src="/media/live2d/js/message.js"></script>
 
 </body>
-<script src="//cdnjs.loli.net/ajax/libs/mdui/0.4.3/js/mdui.min.js"></script>
-<script src="/media/js/index.js"></script>
+
 </html>
