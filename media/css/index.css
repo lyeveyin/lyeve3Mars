@@ -23,14 +23,13 @@
 
 .centerbg{
     background-image: url(../img/centerbg.jpg);
-    background-size: cover;
-	height:2000px;
+	height:auto;
 }
 
 .focusinfo {
     position: relative;
     max-width: 800px;
-	height:600px
+	min-height: 2000px;
 
 }
 
@@ -82,7 +81,7 @@
 }
 
 .top-social li {
-    float: left;
+    float: flex;
     margin-right: 10px;
 }
 
